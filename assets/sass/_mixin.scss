@@ -1,0 +1,10 @@
+@mixin contenedor-principal(){
+	background-image: url('../../assets/img/img-2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 1px;
+	width: 100%;
+	height: 100vh;
+	color: $color_texto_border;
+}
