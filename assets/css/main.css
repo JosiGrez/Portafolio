@@ -6776,35 +6776,119 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   margin: 0;
   padding: 0; }
 
-nav {
-  background-color: #004459;
-  font-family: "Montserrat", sans-serif; }
-  nav a:hover {
-    color: #FFE019; }
-
 .contenedor-principal {
-  background-image: url("../../assets/img/img-2.jpg");
+  background-image: url("../../assets/img/olu-eletu-32387.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: top;
   padding: 1px;
   width: 100%;
-  height: 100vh;
-  color: #1E8A70; }
-  .contenedor-principal .contenedor-texto-foto-perfil {
-    margin-top: 13%; }
-    .contenedor-principal .contenedor-texto-foto-perfil .foto-perfil {
-      border: 4px solid #1E8A70;
-      width: 68%;
-      height: 35vh; }
-    .contenedor-principal .contenedor-texto-foto-perfil h4 {
-      font-weight: 700;
-      font-size: 20px; }
+  height: 100vh; }
+  .contenedor-principal nav {
+    background-color: rgba(166, 92, 59, 0.73);
+    font-family: "Montserrat", sans-serif;
+    margin: -1px; }
+    .contenedor-principal nav a:hover {
+      color: #BCE4F2; }
+  .contenedor-principal .logo {
+    width: 22%;
+    margin-left: 2%;
+    margin-top: 68px; }
+
+.contenedor-foto {
+  margin-top: 13%;
+  background-color: rgba(166, 92, 59, 0.21); }
+  .contenedor-foto .contenedor-texto-foto {
+    margin-left: 24%;
+    padding-top: 22px; }
+    .contenedor-foto .contenedor-texto-foto .foto {
+      margin-top: 2%;
+      width: 75%;
+      border: 4px solid #e5ebe9; }
+  .contenedor-foto h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #462b2b; }
+  .contenedor-foto h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #a64936;
+    padding-top: 12%; }
 
 .contenedor-dos {
-  background-color: whitesmoke;
-  color: #004459; }
-  .contenedor-dos .herramientas {
-    padding: 25px 105px; }
+  background-color: rgba(181, 185, 161, 0.48);
+  height: 86vh; }
+  .contenedor-dos h2 {
+    margin: 0;
+    font-weight: 500;
+    color: #603A32;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10%;
+    padding-bottom: 6%; }
+  .contenedor-dos svg {
+    padding: 25px 0;
+    width: 40%; }
+  .contenedor-dos svg:hover {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2); }
+
+.contenedor-tres {
+  background-image: url("../../assets/img/helloquence-61190.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  padding: 1px;
+  width: 100%;
+  height: 100vh; }
+  .contenedor-tres h2 {
+    margin: 0;
+    font-weight: 500;
+    color: #603A32;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10%;
+    padding-bottom: 6%; }
+  .contenedor-tres img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out; }
+    .contenedor-tres img:hover {
+      transform: scale(1);
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transform: scale(1); }
+
+.contenedor-cuatro {
+  background-color: rgba(181, 185, 161, 0.48);
+  height: 86vh; }
+  .contenedor-cuatro h2 {
+    margin: 0;
+    font-weight: 500;
+    color: #603A32;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10%;
+    padding-bottom: 6%; }
+  .contenedor-cuatro .iconos-contacto {
+    font-weight: 500;
+    font-size: 50px;
+    padding-left: 50px;
+    margin-left: 30%; }
+  .contenedor-cuatro .e {
+    margin-left: 35%; }
 
 /*# sourceMappingURL=main.css.map */
