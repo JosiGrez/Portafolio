@@ -1,28 +1,20 @@
-@mixin contenedor-principal(){
+/*@mixin contenedor-principal(){
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: top;
 	padding: 1px;
 	width: 100%;
-	height: 100vh;
-}
-
-@mixin propiedades-h2(){
-	h2{
-		margin: 0;
-		font-weight: $grosor_letra;
-		color: $color_principal;
-		font-family: $tipo_letra_nav;
-		padding-top: 10%;
-    	padding-bottom: 6%;
-	}
 }
 
 @mixin propiedades-h4(){
 	h4{
+		margin: 0;
 		font-weight: $grosor_letra;
+		color: $color_principal;
 		font-family: $tipo_letra_nav;
+		padding-top: 6%;
+    	padding-bottom: 3%;
 	}
 }
 
@@ -32,6 +24,11 @@
     -moz-transform:scale(1.2); // Firefox 
     -webkit-transform:scale(1.2); // Safari and Chrome 
     -o-transform:scale(1.2); // Opera
+    /*border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;*/
+    /*color: $color_hover_icono;
 }
 
 @mixin hover-img(){
@@ -56,4 +53,54 @@
     -moz-transition: all 500ms ease-in-out; // Firefox
     -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
     -o-transition: all 500ms ease-in-out; // Opera    
+}*/
+
+@mixin lineas(){
+    width: 40%;
+    margin-top: 7%;
+    background-color: rgba(30, 28, 28, 0.81);
+    height: 2px;
+}
+
+@mixin contenedor-lineas(){
+    .linea-1{
+        @include lineas();
+    }
+
+    .linea-2{
+        @include lineas();
+    }
+}
+
+@mixin contenedor-segundas-lineas(){
+    .linea-1{
+        width: 35%;
+        margin-top: 7%;
+        background-color: rgba(30, 28, 28, 0.81);
+        height: 2px;
+    }
+    .linea-2{
+        width: 35%;
+        margin-top: 7%;
+        background-color: rgba(30, 28, 28, 0.81);
+        height: 2px;
+    }
+}
+
+@mixin solo-color(){
+    .linea-1{
+        background-color: $color_secundario;
+    }
+    .linea-2{
+        background-color: $color_secundario;
+    }
+}
+
+@mixin titulos(){
+    h4{
+        position: relative;
+        bottom: 40px;
+        color: #e8634e;
+        font-size: 50px;
+    }
 }

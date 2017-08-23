@@ -1,91 +1,98 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: $tipo_letra_nav;
+}
+
+.primer-color{
+	background-color: $b_color_nav;
+	height: 15px;
+}
+body{
+	background-color: #e5e2d3;
 }
 
 .contenedor-principal{
-	background-image: url('../../assets/img/olu-eletu-32387.jpg');
-	@include contenedor-principal();
-	nav{
-		background-color: $background-color_nav;
-		font-family: $tipo_letra_nav;
-		margin: -1px;
-		a:hover{
-			color: $hover_nav;
-		}
+	height: auto;
+	.foto-perfil{
+		width: 65vh;
+		height: 65vh;
 	}
-	.logo{
-		width: 22%;
-	    margin-left: 2%;
-	    margin-top: 68px;
+	h1{
+		font-size: 94px;
+	    color: $b_color_nav;
 	}
 }
 
-.contenedor-foto{
-	margin-top: 13%;
-	background-color: rgba(166, 92, 59, 0.21);
-	.contenedor-texto-foto{
-		margin-left: 24%;
-    	padding-top: 22px;
-		.foto{
-			margin-top: 2%;
-			width: 75%;
-			border: 4px solid $color_texto_border;
-		}
+.flecha{
+	font-size: 50px;
+	color: $b_color_nav;
+}
+
+@include contenedor-lineas();
+
+.contenedor-info{
+	@include titulos();
+	p{
+		font-size: 30px;
 	}
-	h3{
-		font-size: 35px;
-		font-weight: $grosor_descripcion;
-		color: #462b2b;
+}
+
+.contenedor-herramientas{
+	@include contenedor-segundas-lineas();
+	@include titulos();
+}
+.contenedor-icono{
+    background-color: $b_color_nav;
+    font-size: 58px;
+    height: 15vh;
+    width: 16vh;
+    padding-top: 5%;
+}
+
+.contenedor-portafolio{
+	@include contenedor-segundas-lineas();
+	@include titulos();
+}
+
+.contenedor-contacto{
+	@include titulos();
+	@include contenedor-segundas-lineas();
+	@include  solo-color();
+	background-color: $b_color_nav;
+	.contenedor-disponible{
+		margin-top: -30px;
 	}
 	h4{
-		font-size: 20px;
-		font-weight: $grosor_descripcion;
-		color: $color_h4;
-		padding-top: 12%;
+		color: $color_secundario;
+	}
+	.mi-row{
+		margin-bottom: 0;
+	}
+	i{
+		color: $color_secundario;
+		padding: 0 20px;
+		font-size: 40px;
+	}
+	.btn-mio{
+		border-radius: 7px;
+		font-size: 25px;
+		color: $b_color_nav;
+		background-color: $color_secundario;
+	}
+	h5{
+		font-size: 32px;
+	}
+	h6{
+		font-size: 30px;
 	}
 }
 
-.contenedor-dos{
-	background-color: $background_seccion_2;
-	height: 86vh;
-	@include propiedades-h2();
-	svg{
-		padding: 25px 0;
-		width: 40%;
-	}
-	svg:hover{
-        @include hover-icono();
-    } 
-}
 
 
-.contenedor-tres{
-	background-image: url('../../assets/img/helloquence-61190.jpg');
-	@include contenedor-principal();
-	@include propiedades-h2();
-	img{
-		@include imagenes();
-        &:hover{
-			@include hover-img();
-		}   
-    }        
-}
 
-.contenedor-cuatro{
-	background-color: $background_seccion_2;
-	height: 86vh;
-	@include propiedades-h2();
-	.iconos-contacto{
-		font-weight: $grosor_letra;
-		font-size: 50px;
-		padding-left: 50px;
-		margin-left: 30%;
-	}
-	.e{
-		margin-left: 35%;
-	}
-}
+
+
 
 
 

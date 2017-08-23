@@ -6772,123 +6772,185 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
-* {
-  margin: 0;
-  padding: 0; }
+/*@mixin contenedor-principal(){
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	padding: 1px;
+	width: 100%;
+}
 
-.contenedor-principal {
-  background-image: url("../../assets/img/olu-eletu-32387.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: top;
-  padding: 1px;
-  width: 100%;
-  height: 100vh; }
-  .contenedor-principal nav {
-    background-color: rgba(166, 92, 59, 0.73);
-    font-family: "Montserrat", sans-serif;
-    margin: -1px; }
-    .contenedor-principal nav a:hover {
-      color: #BCE4F2; }
-  .contenedor-principal .logo {
-    width: 22%;
-    margin-left: 2%;
-    margin-top: 68px; }
+@mixin propiedades-h4(){
+	h4{
+		margin: 0;
+		font-weight: $grosor_letra;
+		color: $color_principal;
+		font-family: $tipo_letra_nav;
+		padding-top: 6%;
+    	padding-bottom: 3%;
+	}
+}
 
-.contenedor-foto {
-  margin-top: 13%;
-  background-color: rgba(166, 92, 59, 0.21); }
-  .contenedor-foto .contenedor-texto-foto {
-    margin-left: 24%;
-    padding-top: 22px; }
-    .contenedor-foto .contenedor-texto-foto .foto {
-      margin-top: 2%;
-      width: 75%;
-      border: 4px solid #e5ebe9; }
-  .contenedor-foto h3 {
-    font-size: 35px;
-    font-weight: 700;
-    color: #462b2b; }
-  .contenedor-foto h4 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #a64936;
-    padding-top: 12%; }
+@mixin hover-icono(){
+	transform:scale(1.2);
+    -ms-transform:scale(1.2); // IE 9 
+    -moz-transform:scale(1.2); // Firefox 
+    -webkit-transform:scale(1.2); // Safari and Chrome 
+    -o-transform:scale(1.2); // Opera
+    /*border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-right: 2px solid red;*/
+    /*color: $color_hover_icono;
+}
 
-.contenedor-dos {
-  background-color: rgba(181, 185, 161, 0.48);
-  height: 86vh; }
-  .contenedor-dos h2 {
-    margin: 0;
-    font-weight: 500;
-    color: #603A32;
-    font-family: "Montserrat", sans-serif;
-    padding-top: 10%;
-    padding-bottom: 6%; }
-  .contenedor-dos svg {
-    padding: 25px 0;
-    width: 40%; }
-  .contenedor-dos svg:hover {
-    transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2); }
+@mixin hover-img(){
+    transform:scale(1);
+    -ms-transform:scale(1); // IE 9 
+    -moz-transform:scale(1); // Firefox 
+    -webkit-transform:scale(1); // Safari and Chrome 
+    -o-transform:scale(1); // Opera
+}
 
-.contenedor-tres {
-  background-image: url("../../assets/img/helloquence-61190.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: top;
-  padding: 1px;
-  width: 100%;
-  height: 100vh; }
-  .contenedor-tres h2 {
-    margin: 0;
-    font-weight: 500;
-    color: #603A32;
-    font-family: "Montserrat", sans-serif;
-    padding-top: 10%;
-    padding-bottom: 6%; }
-  .contenedor-tres img {
-    display: block;
+@mixin imagenes(){
+	display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out; }
-    .contenedor-tres img:hover {
-      transform: scale(1);
-      -ms-transform: scale(1);
-      -moz-transform: scale(1);
-      -webkit-transform: scale(1);
-      -o-transform: scale(1); }
+    width: 100%;   
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); // IE 9 
+    -moz-transform:scale(1.2); // Firefox 
+    -webkit-transform:scale(1.2); // Safari and Chrome 
+    -o-transform:scale(1.2); // Opera 
+    -webkit-transition: all 500ms ease-in-out; // IE 9
+    -moz-transition: all 500ms ease-in-out; // Firefox
+    -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
+    -o-transition: all 500ms ease-in-out; // Opera    
+}*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Amatic SC", cursive; }
 
-.contenedor-cuatro {
-  background-color: rgba(181, 185, 161, 0.48);
-  height: 86vh; }
-  .contenedor-cuatro h2 {
-    margin: 0;
-    font-weight: 500;
-    color: #603A32;
-    font-family: "Montserrat", sans-serif;
-    padding-top: 10%;
-    padding-bottom: 6%; }
-  .contenedor-cuatro .iconos-contacto {
-    font-weight: 500;
-    font-size: 50px;
-    padding-left: 50px;
-    margin-left: 30%; }
-  .contenedor-cuatro .e {
-    margin-left: 35%; }
+.primer-color {
+  background-color: #e8634e;
+  height: 15px; }
+
+body {
+  background-color: #e5e2d3; }
+
+.contenedor-principal {
+  height: auto; }
+  .contenedor-principal .foto-perfil {
+    width: 65vh;
+    height: 65vh; }
+  .contenedor-principal h1 {
+    font-size: 94px;
+    color: #e8634e; }
+
+.flecha {
+  font-size: 50px;
+  color: #e8634e; }
+
+.linea-1 {
+  width: 40%;
+  margin-top: 7%;
+  background-color: rgba(30, 28, 28, 0.81);
+  height: 2px; }
+
+.linea-2 {
+  width: 40%;
+  margin-top: 7%;
+  background-color: rgba(30, 28, 28, 0.81);
+  height: 2px; }
+
+.contenedor-info h4 {
+  position: relative;
+  bottom: 40px;
+  color: #e8634e;
+  font-size: 50px; }
+.contenedor-info p {
+  font-size: 30px; }
+
+.contenedor-herramientas .linea-1 {
+  width: 35%;
+  margin-top: 7%;
+  background-color: rgba(30, 28, 28, 0.81);
+  height: 2px; }
+.contenedor-herramientas .linea-2 {
+  width: 35%;
+  margin-top: 7%;
+  background-color: rgba(30, 28, 28, 0.81);
+  height: 2px; }
+.contenedor-herramientas h4 {
+  position: relative;
+  bottom: 40px;
+  color: #e8634e;
+  font-size: 50px; }
+
+.contenedor-icono {
+  background-color: #e8634e;
+  font-size: 58px;
+  height: 15vh;
+  width: 16vh;
+  padding-top: 5%; }
+
+.contenedor-portafolio .linea-1 {
+  width: 35%;
+  margin-top: 7%;
+  background-color: rgba(30, 28, 28, 0.81);
+  height: 2px; }
+.contenedor-portafolio .linea-2 {
+  width: 35%;
+  margin-top: 7%;
+  background-color: rgba(30, 28, 28, 0.81);
+  height: 2px; }
+.contenedor-portafolio h4 {
+  position: relative;
+  bottom: 40px;
+  color: #e8634e;
+  font-size: 50px; }
+
+.contenedor-contacto {
+  background-color: #e8634e; }
+  .contenedor-contacto h4 {
+    position: relative;
+    bottom: 40px;
+    color: #e8634e;
+    font-size: 50px; }
+  .contenedor-contacto .linea-1 {
+    width: 35%;
+    margin-top: 7%;
+    background-color: rgba(30, 28, 28, 0.81);
+    height: 2px; }
+  .contenedor-contacto .linea-2 {
+    width: 35%;
+    margin-top: 7%;
+    background-color: rgba(30, 28, 28, 0.81);
+    height: 2px; }
+  .contenedor-contacto .linea-1 {
+    background-color: whitesmoke; }
+  .contenedor-contacto .linea-2 {
+    background-color: whitesmoke; }
+  .contenedor-contacto .contenedor-disponible {
+    margin-top: -30px; }
+  .contenedor-contacto h4 {
+    color: whitesmoke; }
+  .contenedor-contacto .mi-row {
+    margin-bottom: 0; }
+  .contenedor-contacto i {
+    color: whitesmoke;
+    padding: 0 20px;
+    font-size: 40px; }
+  .contenedor-contacto .btn-mio {
+    border-radius: 7px;
+    font-size: 25px;
+    color: #e8634e;
+    background-color: whitesmoke; }
+  .contenedor-contacto h5 {
+    font-size: 32px; }
+  .contenedor-contacto h6 {
+    font-size: 30px; }
 
 /*# sourceMappingURL=main.css.map */
