@@ -15,7 +15,7 @@ body{
 .contenedor-principal{
 	height: auto;
 	.foto-perfil{
-		width: 65vh;
+		width: 62vh;
 		height: 65vh;
 	}
 	h1{
@@ -27,6 +27,7 @@ body{
 .flecha{
 	font-size: 50px;
 	color: $b_color_nav;
+	transition: all 30s ease-in;
 }
 
 @include contenedor-lineas();
@@ -34,7 +35,8 @@ body{
 .contenedor-info{
 	@include titulos();
 	p{
-		font-size: 30px;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 20px;
 	}
 }
 
@@ -42,6 +44,21 @@ body{
 	@include contenedor-segundas-lineas();
 	@include titulos();
 }
+
+.contenedor-pug{
+	width: 100%;
+	.pug{
+		width: 370%;
+	    margin-left: -111px;
+	}
+	@media (max-width: 425px){
+		.pug{
+			width: 120%;
+			margin-left: -3px;
+		}
+	}
+}
+
 .contenedor-icono{
     background-color: $b_color_nav;
     font-size: 58px;
@@ -77,16 +94,23 @@ body{
 	.btn-mio{
 		border-radius: 7px;
 		font-size: 25px;
+		font-weight: 700;
 		color: $b_color_nav;
 		background-color: $color_secundario;
 	}
 	h5{
-		font-size: 32px;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 22px;
+		font-weight: 700;
 	}
 	h6{
-		font-size: 30px;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 700;
 	}
 }
+
+/*500 medio minuto fadein("slow") fadeout */
 
 
 

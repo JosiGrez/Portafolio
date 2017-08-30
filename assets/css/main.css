@@ -6843,7 +6843,7 @@ body {
 .contenedor-principal {
   height: auto; }
   .contenedor-principal .foto-perfil {
-    width: 65vh;
+    width: 62vh;
     height: 65vh; }
   .contenedor-principal h1 {
     font-size: 94px;
@@ -6851,7 +6851,8 @@ body {
 
 .flecha {
   font-size: 50px;
-  color: #e8634e; }
+  color: #e8634e;
+  transition: all 30s ease-in; }
 
 .linea-1 {
   width: 40%;
@@ -6871,7 +6872,8 @@ body {
   color: #e8634e;
   font-size: 50px; }
 .contenedor-info p {
-  font-size: 30px; }
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px; }
 
 .contenedor-herramientas .linea-1 {
   width: 35%;
@@ -6888,6 +6890,16 @@ body {
   bottom: 40px;
   color: #e8634e;
   font-size: 50px; }
+
+.contenedor-pug {
+  width: 100%; }
+  .contenedor-pug .pug {
+    width: 370%;
+    margin-left: -111px; }
+  @media (max-width: 425px) {
+    .contenedor-pug .pug {
+      width: 120%;
+      margin-left: -3px; } }
 
 .contenedor-icono {
   background-color: #e8634e;
@@ -6946,11 +6958,18 @@ body {
   .contenedor-contacto .btn-mio {
     border-radius: 7px;
     font-size: 25px;
+    font-weight: 700;
     color: #e8634e;
     background-color: whitesmoke; }
   .contenedor-contacto h5 {
-    font-size: 32px; }
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700; }
   .contenedor-contacto h6 {
-    font-size: 30px; }
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700; }
+
+/*500 medio minuto fadein("slow") fadeout */
 
 /*# sourceMappingURL=main.css.map */
