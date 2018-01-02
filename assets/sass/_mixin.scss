@@ -56,51 +56,18 @@
 }*/
 
 @mixin lineas(){
-    width: 40%;
-    margin-top: 7%;
-    background-color: rgba(30, 28, 28, 0.81);
-    height: 2px;
-}
-
-@mixin contenedor-lineas(){
     .linea-1{
-        @include lineas();
-    }
-
-    .linea-2{
-        @include lineas();
-    }
-}
-
-@mixin contenedor-segundas-lineas(){
-    .linea-1{
-        width: 35%;
-        margin-top: 7%;
+        width: 15%;
+        margin-top: 5%;
+        margin-left: 20%;
         background-color: rgba(30, 28, 28, 0.81);
         height: 2px;
     }
     .linea-2{
-        width: 35%;
-        margin-top: 7%;
+        width: 15%;
+        margin-top: 5%;
+        margin-right: 20%;
         background-color: rgba(30, 28, 28, 0.81);
         height: 2px;
-    }
-}
-
-@mixin solo-color(){
-    .linea-1{
-        background-color: $color_secundario;
-    }
-    .linea-2{
-        background-color: $color_secundario;
-    }
-}
-
-@mixin titulos(){
-    h4{
-        position: relative;
-        bottom: 40px;
-        color: #e8634e;
-        font-size: 50px;
     }
 }
