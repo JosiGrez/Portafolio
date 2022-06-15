@@ -6846,9 +6846,8 @@ h6 {
   background-color: #86DDB2;
   padding-right: 2%; }
   .mi-nav a {
-    color: #131313f0;
-    font-size: 23px;
-    /*padding-left: 5%; */}
+    color: #362929;
+    font-size: 25px; }
   .mi-nav .logo {
     position: relative;
     bottom: -57px;
@@ -6868,6 +6867,7 @@ h6 {
     margin-left: 40%;
     margin-top: 5%; }
   .contenedor-secundario p {
+    color: #362929;
     font-size: 22px;
     padding: 10%;
     padding-top: 0%;
@@ -6914,7 +6914,7 @@ h6 {
     font-weight: 700; }
   .portafolio .marco .demo {
     background-color: #86ddb2;
-    color: #428664;
+    color: whitesmoke;
     border-radius: 7%;
     padding: 0%;
     width: 15%;
