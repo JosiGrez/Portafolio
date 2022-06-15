@@ -6868,9 +6868,9 @@ h6 {
     margin-top: 5%; }
   .contenedor-secundario p {
     color: #362929;
-    font-size: 22px;
-    padding: 10%;
-    padding-top: 0%;
+    font-size: 23px;
+    padding: 7%;
+    padding-top: 56px;
     font-weight: 500; }
 
 .habilidades {
@@ -6910,15 +6910,15 @@ h6 {
     padding: 0px; }
   .portafolio .marco a {
     color: #202020;
-    font-size: 20px;
-    font-weight: 700; }
+    font-size: 20px; }
   .portafolio .marco .demo {
-    background-color: #86ddb2;
+    background-color: #201f1f;
     color: whitesmoke;
-    border-radius: 7%;
+    border-radius: 6%;
     padding: 0%;
-    width: 15%;
-    height: 6%; }
+    width: 17%;
+    height: 6%;
+    margin-left: 45px; }
 .portafolio .marco:hover p {
   font-size: 20px;
   color: #202020; }
@@ -6928,12 +6928,12 @@ h6 {
   padding-right: 50px; }
 
 .mi-btn {
-  background-color: #000000;
+  background-color: #201f1f;
   color: whitesmoke;
   margin-bottom: 3%; }
 
 .img-logos {
-  width: 12%;
+  width: 10%;
   margin-right: 10px;
   margin-left: 10px; }
 
