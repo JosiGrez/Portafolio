@@ -6848,7 +6848,7 @@ h6 {
   .mi-nav a {
     color: #131313f0;
     font-size: 23px;
-    padding-left: 5%; }
+    /*padding-left: 5%; */}
   .mi-nav .logo {
     position: relative;
     bottom: -57px;
