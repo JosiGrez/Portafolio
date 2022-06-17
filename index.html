@@ -8,34 +8,41 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Farsan|Satisfy" rel="stylesheet"><!-- utilizada en h3-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<nav>
-		<div class="nav-wrapper mi-nav">
-			<img class="responsive-img logo" src="assets/img/Logo_Joselin_b.png">
+	<nav class="mi-nav">
+		<div class="nav-wrapper">
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li class="sobre-mi"><a href="#sobre-mi">Sobre mi</a></li>
+				<li><a href="#sobre-mi">Sobre mi</a></li>
 				<li><a href="#habilidades">Habilidades</a></li>
 				<li><a href="#portafolio">Portafolio</a></li>
-				<li class="contactame"><a href="#contactame">Contáctame</a></li>
+				<li><a href="#contactame">Contáctame</a></li>
 			</ul>
 		</div>
+		
 	</nav>
 
-
 	<section class="container-fluid contenedor-principal">
-		<div id="sobre-mi" class="container contenedor-secundario">
+		<div id="sobre-mi" class="container contenedor-secundario-perfil">
 			<div class="row">
 				<div class="col s12 m12 l12 xl12">
+					<img class="responsive-img logo" src="assets/img/Logo_Joselin_b.png">
 					<img class="responsive-img circle center foto-perfil" src="assets/img/foto-perfil.jpg">
 					<p class="center parrafo">Me defino como una persona autodidacta, realicé un Bootcamp intensivo de Front-End Developer de 6 meses, 
 						lo que me permitió adentrarme en el mundo de la tecnología. A lo largo de mi vida laboral, destaco el haber estado dispuesta a realizar distintas funciones dentro de una misma empresa, 
 						como desarrollo web, QA y soporte operacional, con el fin de aprender nuevas tecnologías que aporten valor organizacional y a mi crecimiento profesional. Disfruto el trabajo en equipo y 
 						siempre me encuentro dispuesta a entregar lo mejor de mi para superar los desafíos que se me presenten.
-					</p>      	
+					</p>      
+					<div class="col s12 m12 l12 xl12">
+						<a class="right waves-effect waves-light btn mi-btn" target="_blank" href="https://drive.google.com/file/d/1PGHYdWC50X6ORss4Wy8JjW97PCOw1W_f/view?usp=sharing" download>Descargar CV</a>
+					</div>	
 				</div>
 			</div>
 		</div>
@@ -47,54 +54,55 @@
 					<hr class="hide-on-small-only linea-1 left"><hr class="hide-on-small-only linea-2 right">
 					<h3 class="center">Habilidades</h3>	
 				</div>
-
-				<div class="col s12 m12 l6 xl6">	
-					<div class="row">
-						<div class="col s4 m4 l4 xl4 center mas-abajo">
-							<a href="#"><i class="devicon-html5-plain colored iconos"></i></a>
+				<div class="container tamanio">
+					<div class="col s12 m12 l6 xl6">	
+						<div class="row">
+							<div class="col s4 m4 l4 xl4 center intermedio-arriba">
+								<a href="https://es.wikipedia.org/wiki/HTML5" target="_blank"><i style="color: #9d2405;" class="devicon-html5-plain colored iconos"></i></a>
+							</div>
+							<div class="col s4 m4 l4 xl4 center">
+								<a href="https://es.wikipedia.org/wiki/CSS" target="_blank"><i style="color: #12517a;" class="devicon-css3-plain colored iconos"></i></a>
+							</div>
+							<div class="col s4 m4 l4 xl4 center intermedio-arriba">
+								<a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank"><i style="color: #ffe539;" class="devicon-javascript-plain colored iconos"></i></a>
+							</div>
 						</div>
-						<div class="col s4 m4 l4 xl4 center">
-							<a href="#"><i class="devicon-css3-plain colored iconos"></i></a>
-						</div>
-						<div class="col s4 m4 l4 xl4 center mas-abajo">
-							<a href="#"><i class="devicon-javascript-plain colored iconos"></i></a>
-						</div>
-					</div>
-					<div class="row center"> <!-- iconos de abajo parte izquierda-->
-						<div class="col s4 m4 l4 xl4 mas-abajo">
-							<a href="#"><i class="devicon-sass-original colored iconos"></i></a>
-						</div>
-						<div class="col s4 m4 l4 xl4 intermedio">
-							<a href="#"><i class="devicon-gulp-plain colored iconos"></i></a>
-						</div>
-						<div class="col s4 m4 l4 xl4 mas-abajo">
-							<a href="#"><i class="devicon-jquery-plain colored iconos"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col s12 m12 l6 xl6 right">	<!-- iconos lado derecho-->
-					<div class="row">
-						<div class="col s4 m4 l4 xl4 center mas-abajo">
-							<a href="#"><i class="devicon-git-plain colored iconos"></i></a>
-						</div>
-						<div class="col s4 m4 l4 xl4 center">
-							<a href="#"><i class="devicon-github-plain colored iconos"></i></a>
-						</div>
-						<div class="col s4 m4 l4 xl4 center mas-abajo">
-							<a href="#"><i class="devicon-bootstrap-plain colored iconos"></i></a>	
+						<div class="row"> <!-- iconos de abajo parte izquierda-->
+							<div class="col s4 m4 l4 xl4 center mas-abajo">
+								<a href="https://sass-lang.com/" target="_blank"><i style="color: #ffa2d0;" class="devicon-sass-original colored iconos"></i></a>
+							</div>
+							<div class="col s4 m4 l4 xl4 center intermedio">
+								<a href="https://gulpjs.com/" target="_blank"><i style="color: #741314;" class="devicon-gulp-plain colored iconos"></i></a>
+							</div>
+							<div class="col s4 m4 l4 xl4 center mas-abajo">
+								<a href="https://jquery.com/" target="_blank"><i style="color: #0e446a;" class="devicon-jquery-plain colored iconos"></i></a>
+							</div>
 						</div>
 					</div>
-					<div class="row center"> <!-- iconos de abajo-->
-						<div class="col s4 m4 l4 xl4 mas-abajo">
-							<a href="#"><i class="devicon-python-plain colored iconos"></i></a>
+				
+					<div class="col s12 m12 l6 xl6 right">	<!-- iconos lado derecho-->
+						<div class="row">
+							<div class="col s4 m4 l4 xl4 center">
+								<a href="https://git-scm.com/" target="_blank"><i style="color: #a52508;" class="devicon-git-plain colored iconos"></i></a>
+							</div>
+							<div class="col s4 m4 l4 xl4 center intermedio-arriba">
+								<a href="https://github.com/" target="_blank"><i style="color: #060606;" class="devicon-github-plain colored iconos"></i></a>
+							</div>
+							<div class="col s4 m4 l4 xl4 center">
+								<a href="https://getbootstrap.com/" target="_blank"><i style="color: #5623a3;" class="devicon-bootstrap-plain colored iconos"></i></a>	
+							</div>
 						</div>
-						<div class="col s4 m4 l4 xl4 intermedio">
-							<a href="#"><i class="devicon-nodejs-plain colored iconos"></i></a>
+						<div class="row"> <!-- iconos de abajo-->
+							<div class="col s4 m4 l4 xl4 center intermedio">
+								<a href="https://www.python.org/" target="_blank"><i style="color: #ffcf1a;" class="devicon-python-plain colored iconos"></i></a>
+							</div>
+							<div class="col s4 m4 l4 xl4 center mas-abajo">
+								<a href="https://nodejs.org/es/" target="_blank"><i style="color: #3f6a09;" class="devicon-nodejs-plain colored iconos"></i></a>
+							</div>
+							<div class="col s4 m4 l4 xl4 center intermedio">
+								<a href="https://www.postgresql.org/" target="_blank"><i style="color: #1a496e;" class="devicon-postgresql-plain colored iconos"></i></a>
+							</div>	
 						</div>
-						<div class="col s4 m4 l4 xl4 mas-abajo">
-							<a href="#"><i class="devicon-postgresql-plain colored iconos"></i></a>
-						</div>	
 					</div>
 				</div>
 			</div>
@@ -110,22 +118,22 @@
 					<h3 class="center">Portafolio</h3>	
 				</div>
 				<figure class="position">
-					<a href="https://ddayif.github.io/dobby-spa/">
+					<a target="_blank" href="https://josigrez.github.io/Labcar/">
 						<div class="col s5 m5 l5 xl5 marco">
-							<h5 class="center">Dobby Spa</h5>
-							<img class="responsive-img img-portafolio" src="assets/img/portafolio-1.png">
-							<p>Proyecto trabajado con HTML5, CSS3, JQUERY y preposesador SASS</p>
-							<a class="demo left" href="https://ddayif.github.io/dobby-spa/">Demo</a>
+							<h5 class="center">Labcar</h5>
+							<img class="responsive-img img-portafolio" src="assets/img/portafolio-3.png">
+							<p>Proyecto trabajado con HTML5 y CSS3</p><br>
+							<a class="demo left" target="_blank" href="https://josigrez.github.io/Labcar/">Demo</a>
 						</div>
 					</a>
-				</figure>	
+				</figure>
 				<figure class="position-opuesto">
-					<a href="https://ddayif.github.io/culinary-lab/">
+					<a target="_blank" href="https://josigrez.github.io/culinary-lab/">
 						<div class="col s5 m5 l5 xl5 marco right">
 							<h5 class="center">Culinary-lab</h5>
 							<img class="responsive-img img-portafolio" src="assets/img/portafolio-2.png">
-							<p>Proyecto trabajado con HTML5 y CSS3</p>
-							<a class="demo left" href="https://ddayif.github.io/culinary-lab/">Demo</a>
+							<p>Proyecto trabajado con HTML5 y CSS3</p><br>
+							<a class="demo left" target="_blank" href="https://josigrez.github.io/culinary-lab/">Demo</a>
 						</div>
 					</a>
 				</figure>
@@ -133,28 +141,29 @@
 
 			<div class="row">
 				<figure class="position">
-					<a href="https://ddayif.github.io/Labcar/">
-						<div class="col s5 m5 l5 xl5 marco">
-							<h5 class="center">Labcar</h5>
-							<img class="responsive-img img-portafolio" src="assets/img/portafolio-3.png">
-							<p>Proyecto trabajado con HTML5 y CSS3</p>
-							<a class="demo left" href="https://ddayif.github.io/Labcar/">Demo</a>
+					<a target="_blank" href="https://josigrez.github.io/dobby-spa/">
+						<div class="col s5 m5 l5 xl5 marco marco-abajo">
+							<h5 class="center">Dobby Spa</h5>
+							<img class="responsive-img img-portafolio" src="assets/img/portafolio-1.png">
+							<p>Proyecto trabajado con HTML5, CSS3, Jquery <br>y preprocesador Sass</p>
+							<a class="demo left" target="_blank" href="https://josigrez.github.io/dobby-spa/">Demo</a>
 						</div>
 					</a>
-				</figure>	
+				</figure>
 				<figure class="position-opuesto">	
-					<a href="https://ddayif.github.io/save-the-koala-vol2/">
-						<div class="col s5 m5 l5 xl5 marco right">
+					<a target="_blank" href="https://josigrez.github.io/save-the-koala-vol2/">
+						<div class="col s5 m5 l5 xl5 marco marco-abajo right ">
 							<h5 class="center">Save the Koala</h5>
 							<img class="responsive-img img-portafolio" src="assets/img/portafolio-4.png">
-							<p>Proyecto trabajado con HTML5, CSS3 y Bootstrap</p>
-							<a class="demo left" href="https://ddayif.github.io/save-the-koala-vol2/">Demo</a>
+							<p>Proyecto trabajado con HTML5, CSS3<br> y Bootstrap</p>
+							<a class="demo left" target="_blank" href="https://josigrez.github.io/save-the-koala-vol2/">Demo</a>
 						</div>
 					</a>
 				</figure>
 			</div>
 		</div><!--Termina seccion portafolio-->	
 
+		<!--comienza seccion contactame-->
 		<div id="contactame" class="container seccion-contactame">
 			<div class="row">	
 				<div class="col s12 m12 l12 xl12">
@@ -168,17 +177,14 @@
 					<h6>No dude en ponerse en contacto conmigo</h6>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row info">
 				<div class="col s12 m12 l12 xl12 center">
-					<a href="https://www.linkedin.com/in/joselin-grez/"><img class="responsive-img img-logos" src="assets/img/linkedin.png"></a>
+					<a href="https://www.linkedin.com/in/joselin-grez/" target="_blank"><img class="responsive-img img-logos" src="assets/img/linkedin.png"></a>
 					<a href="mailto:joselin.chicer@gmail.com"><img class="responsive-img img-logos" src="assets/img/mail.png"></a>
-					<a href="https://github.com/Ddayif"><img class="responsive-img img-logos" src="assets/img/github.png"></a>
-				</div>
-				<div class="col s12 m12 l12 xl12">
-					<a class="right waves-effect waves-light btn mi-btn" href="https://drive.google.com/file/d/1PGHYdWC50X6ORss4Wy8JjW97PCOw1W_f/view?usp=sharing" download>Descargar CV</a>
+					<a href="https://github.com/JosiGrez" target="_blank"><img class="responsive-img img-logos" src="assets/img/github.png"></a>
 				</div>
 			</div>	
-		</div>		
+		</div><!--termina seccion contactame-->	
 	</section>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
