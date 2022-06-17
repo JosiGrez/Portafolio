@@ -6836,13 +6836,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   }
 
 body{
-  background-color: #db9428;
+  background-color: #143c38;
   position:relative;
 }
 
 h3 {
   /*font-family: 'Satisfy', cursive;*/
   font-family: 'Cormorant Garamond', serif;
+  font-size: 48px;
   color: #d6e8ff;
   margin-top: 3%;
   margin-bottom: 5%; 
@@ -6857,19 +6858,20 @@ h6 {
 
 /*general*/
 .mi-btn {
-  background-color: #0000004d;
-  color: #d6e8ff;
-  font-family: 'Cormorant Garamond', serif;
+  background-color: #234643ad;
+  color: #ebfbf9;
   margin-bottom: 3%;
+  font-size: 11px;
   border-radius: 8px;
-  margin-right: 70px;
+  margin-right: 12px;
+  font-family: 'Libre Caslon Text', serif;
 }
 
 .img-logos {
-  width: 10%;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 14px;
+  width: 9%;
+  margin-right: 28px;
+  margin-left: 28px;
+  margin-bottom: 15px;
 }
 
 .linea-1 {
@@ -6889,25 +6891,43 @@ h6 {
 }
 
 .mi-nav {
-  background-color: #db9428;
+  background-color: #143c3880;
   padding-right: 6%;
   padding-top: 6px;
   height: 76px; }
   .mi-nav a {
-    color: #ffffff;;
-    font-size: 25px; }
+    color: #ffffff;
+    font-size: 23px;
+    font-family: 'Cormorant Garamond', serif; }
 
 .contenedor-principal {
   height: auto;
-  background-color: #db9428;
+  background-color: #143c3880;
 }
+
+.contenedor-secundario-perfil {
+  height: auto;
+  width: 83%;
+  margin-top: 31px;
+  border-radius: 20px;
+  background-color: #000000bf; }
+  .contenedor-secundario-perfil .foto-perfil {
+    width: 19%;
+    height: 230px;
+    margin-top: 2%;
+    margin-left: 28%; }
+  .contenedor-secundario-perfil p {
+    color: #d6e8ff;
+    font-size: 21px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 15px 20px 0px 20px; }
 
 .contenedor-secundario {
   height: auto;
-  width: 93%;;
+  width: 90%;;
   margin-top: 2%;
   border-radius: 20px;
-  background-color: #36000047; }
+  background-color: #000000bf; }
   .contenedor-secundario p {
     color: #362929;
     font-size: 21px;
@@ -6920,22 +6940,6 @@ h6 {
   margin-left: 65px;
 }
 
-.contenedor-secundario-perfil {
-  height: auto;
-  width: 85%;
-  margin-top: 31px;
-  border-radius: 20px;
-  background-color: #36000047; }
-  .contenedor-secundario-perfil .foto-perfil {
-    width: 19%;
-    height: 230px;
-    margin-top: 2%;
-    margin-left: 28%; }
-  .contenedor-secundario-perfil p {
-    color: #d6e8ff;
-    font-size: 21px;
-    font-family: 'Cormorant Garamond', serif;
-    padding: 15px 31px 0px 32px; }
 
 /*seccion habilidades*/
 .habilidades h3 {
@@ -6986,20 +6990,20 @@ h6 {
   margin: 1%; }
   .portafolio .marco p {
     font-size: 19px;
-    color: #d6e8ff;
+    color: #050f0e;
     font-family: 'Cormorant Garamond', serif;
     padding: 0px; }
   .portafolio .marco .demo {
-    background-color: #0000004d;
-    font-family: 'Cormorant Garamond', serif;
-    color: #d6e8ff;
-    font-size: 18px;
+    background-color: #f7b617;
+    color: #0e1826;
+    font-size: 15px;
     border-radius: 5px;
-    padding: 0%;
+    padding: 1%;
     width: 17%;
     height: 31px;
-    margin-bottom: 3%;
-    margin-left: 45px; }
+    margin-bottom: 5%;
+    margin-left: 10%;
+    font-family: 'Libre Caslon Text', serif; }
   .portafolio .marco-abajo{
     margin-bottom: 5%;
   }
@@ -7009,16 +7013,17 @@ h6 {
 .portafolio .position-opuesto {
   padding-right: 50px;
 }
-/*.portafolio .marco:hover p {
+.portafolio .marco:hover p {
   font-size: 20px;
-  border: 1px solid #d79838;
-  /*color: #d6e8ff;
-}*/
+  color: #d6e8ff;
+}
 
 /*seccion contactame*/
 .seccion-contactame{
-  color: #d6e8ff;
-}
+  color: #d6e8ff; }
+  .seccion-contactame h3{
+    margin-bottom: 0%;
+  }
 
 .info{
   margin-bottom: 15px;
